@@ -6,7 +6,7 @@
   text-decoration: none;
   /* font-family: 'Audiowide', cursive;
   font-family: 'Inter', sans-serif; */
-  font-family: 'DM Mono', monospace;
+  font-family: "DM Mono", monospace;
 }
 
 body {
@@ -27,13 +27,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  0 70px;
+  padding: 0 100px;
 }
 
 .conteiner .navbar .logo {
   width: 30%;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .conteiner .navbar .logo ul {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -56,7 +56,6 @@ body {
 .conteiner .navbar .navigations {
   width: 15%;
   height: 100%;
-
 }
 
 .conteiner .navbar .navigations ul {
@@ -70,7 +69,7 @@ body {
   width: 40px;
   height: 40px;
   border: 1px solid #fff;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
@@ -80,7 +79,6 @@ body {
 
 .conteiner .navbar .navigations ul li a i {
   color: #000;
-
 }
 
 /* header */
@@ -91,6 +89,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 1px solid transparent;
+  padding: 0 40px;
 }
 
 .conteiner .header .header_right {
@@ -115,12 +114,12 @@ body {
 
 .conteiner .header .header_left h1 {
   font-size: 40px;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   margin-bottom: 40px;
   color: #fff;
 }
 
-.conteiner .header .header_left  p {
+.conteiner .header .header_left p {
   font-size: 14px;
   width: 70%;
   color: #fff;
@@ -128,9 +127,9 @@ body {
 }
 
 .conteiner .header .header_left a {
-  border: 1px solid #8DFD1B;
+  border: 1px solid #8dfd1b;
   padding: 15px 40px;
-  background-color: #8DFD1B;
+  background-color: #8dfd1b;
   color: #000;
   font-size: 16px;
   font-weight: 500;
@@ -142,7 +141,7 @@ body {
   width: 100%;
   height: 500px;
   border: 1px solid transparent;
-  padding: 30px;
+  padding: 0 40px;
   display: flex;
   justify-content: start;
   margin-bottom: 40px;
@@ -157,24 +156,23 @@ body {
   width: 40%;
 }
 
-.conteiner .nft .nft_left  .nft_left_title {
+.conteiner .nft .nft_left .nft_left_title {
   width: 70%;
 }
 
-.conteiner .nft .nft_left  .nft_left_title h2 {
+.conteiner .nft .nft_left .nft_left_title h2 {
   font-size: 45px;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   margin-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
 }
 
-.conteiner .nft .nft_left  .nft_left_title h3 {
+.conteiner .nft .nft_left .nft_left_title h3 {
   font-size: 45px;
-  font-family: 'Audiowide', cursive;
-  color: #A8A8A8;
+  font-family: "Audiowide", cursive;
+  color: #a8a8a8;
   margin-bottom: 10px;
-
 }
 
 .conteiner .nft .nft_left img {
@@ -183,52 +181,48 @@ body {
   object-fit: cover;
 }
 
-.conteiner .nft  .nft_right {
+.conteiner .nft .nft_right {
   width: 40%;
   height: 100%;
 }
 
-
-.conteiner .nft  .nft_right .nft_text_box {
+.conteiner .nft .nft_right .nft_text_box {
   width: 80%;
   height: 27%;
-  border-left: 2px solid #8DFD1B;
+  border-left: 2px solid #8dfd1b;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.conteiner .nft  .nft_right .nft_text_box p {
-  line-height: 25px;  
-  color: #8DFD1B;
+.conteiner .nft .nft_right .nft_text_box p {
+  line-height: 25px;
+  color: #8dfd1b;
   font-weight: 400;
   font-size: 17px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
-.conteiner .nft  .nft_right p {
+.conteiner .nft .nft_right p {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
 
-.conteiner .nft  .nft_right .text_nft {
+.conteiner .nft .nft_right .text_nft {
   margin-bottom: 50px;
 }
 
-.conteiner .nft  .nft_right a {
+.conteiner .nft .nft_right a {
   text-transform: capitalize;
   font-size: 16px;
-  border: 1px solid #8DFD1B;
+  border: 1px solid #8dfd1b;
   padding: 10px 30px;
   color: #fff;
   font-weight: 400;
-
 }
 
 /*  */
-
 
 /* title */
 
@@ -241,15 +235,14 @@ body {
   position: relative;
 }
 
-.conteiner .title  marquee span {
+.conteiner .title marquee span {
   margin: 0 100px;
   font-size: 60px;
   text-transform: uppercase;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   font-weight: 700;
   color: #fff;
 }
-
 
 /*  */
 
@@ -261,8 +254,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 65px;
-  padding:  20px 50px;
-
+  padding: 20px 50px;
 }
 
 .conteiner .people .people_item {
@@ -283,4 +275,403 @@ body {
 
 .conteiner .story {
   width: 100%;
+  padding: 40px;
+}
+
+.conteiner .story h1 {
+  text-align: center;
+  width: 100%;
+  font-family: "Audiowide", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.conteiner .story h1 span {
+  text-align: center;
+  width: 100%;
+  font-family: "Audiowide", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.conteiner .story .story_box {
+  display: flex;
+}
+
+.conteiner .story .story_box .story_left {
+  width: 20%;
+}
+
+.conteiner .story .story_box .story_left ul li {
+  width: 100%;
+  height: 50px;
+  border: 1px solid transparent;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.conteiner .story .story_box .story_left ul li a {
+  color: #fff;
+}
+
+.conteiner .story .story_box .story_left ul li:nth-child(1) {
+  background-color: #222222;
+}
+
+.conteiner .story .story_box .story_right {
+  width: 67%;
+  background-color: #222222;
+  padding: 80px;
+}
+
+.conteiner .story .story_box .story_right .story_right_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.conteiner
+  .story
+  .story_box
+  .story_right
+  .story_right_box
+  .story_right_box_left {
+  width: 20%;
+}
+
+.conteiner
+  .story
+  .story_box
+  .story_right
+  .story_right_box
+  .story_right_box_right {
+  width: 70%;
+}
+
+.conteiner
+  .story
+  .story_box
+  .story_right
+  .story_right_box
+  .story_right_box_right
+  .story_text_box {
+  border-left: 2px solid #8dfd1b;
+  padding: 13px 10px 1px 10px;
+  margin-bottom: 30px;
+}
+
+.conteiner
+  .story
+  .story_box
+  .story_right
+  .story_right_box
+  .story_right_box_right
+  .story_text_box
+  p {
+  font-size: 18px;
+  color: #8dfd1b;
+  width: 80%;
+}
+
+.conteiner
+  .story
+  .story_box
+  .story_right
+  .story_right_box
+  .story_right_box_right
+  p {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  line-height: 25px;
+}
+
+/*  */
+
+/* guitar */
+
+.conteiner .guitar {
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+
+.conteiner .guitar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conteiner .guitar .circle {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 90%;
+  left: 3%;
+}
+
+.conteiner .guitar .circle img {
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*  */
+
+/* roadmap */
+
+.conteiner .Roadmap {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+  z-index: 100;
+  position: relative;
+}
+
+.conteiner .Roadmap h1 {
+  margin-bottom: 100px;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.conteiner .Roadmap .road_item_box {
+  width: 40%;
+  height: 270px;
+  border: 1px solid #8dfd1b;
+  margin: 0 auto;
+  background-color: #222222;
+  border-radius: 2px;
+  z-index: 1000;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 40px;
+  padding: 17px 20px;
+  border-bottom: 1px solid #8dfd1b;
+  height: 80px;
+  text-align: left;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_title .road_text {
+  margin-top: 5px;
+}
+
+.conteiner
+  .Roadmap
+  .road_item_box
+  .road_item_box_title
+  .road_text
+  p:first-child {
+  font-size: 10px;
+  margin-bottom: 6px;
+  color: #8dfd1b;
+  letter-spacing: 2px;
+}
+
+.conteiner
+  .Roadmap
+  .road_item_box
+  .road_item_box_title
+  .road_text
+  p:last-child {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_title .road_count h1 {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #8dfd1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #8dfd1b;
+  color: #000;
+}
+.conteiner .Roadmap .road_item_box .road_item_box_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_body .road_body_text {
+  width: 65%;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_body .road_body_text ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.conteiner .Roadmap .road_item_box .road_item_box_body .road_body_text ul li {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_body .road_body_text p {
+  font-size: 10px;
+  line-height: 25px;
+}
+
+/*  */
+
+.conteiner .Roadmap .circle {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.conteiner .Roadmap .line {
+  width: 1px;
+  height: 50px;
+  border-left: 2px solid #8dfd1b;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conteiner .Roadmap .road_two {
+  height: 100%;
+}
+
+.conteiner .Roadmap .circle_two {
+  position: absolute;
+  top: 70%;
+  left: 0;
+}
+
+.conteiner .Roadmap .road_item_box .road_item_box_title .count_two h1 {
+  background-color: #222222;
+  color: #8dfd1b;
+}
+
+/* partners */
+
+.conteiner .partners {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.conteiner .partners  .partners_title h1 {
+  color: #8dfd1b;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.conteiner .partners .title span {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+
+/* frequently */
+
+
+.conteiner .frequently {
+  width: 100%;
+  height: 100%;
+  padding: 0 50px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.conteiner .frequently .ferquently_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_left {
+  width: 50%;
+  height: 100%;
+}
+.conteiner .frequently .ferquently_content .ferquently_content_right {
+  width: 50%;
+  height: 100%;
+
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_left .ferquently_content_left_title h1, span  {
+  font-size: 38px;
+  font-family: 'Audiowide', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_left .ferquently_content_left_title h1  span {
+  color: #A8A8A8;
+} 
+
+.conteiner .frequently .ferquently_content .ferquently_content_left .ferquently_content_left_img {
+  width: 50%;
+  height: 380px;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_left .ferquently_content_left_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.conteiner .frequently .ferquently_content .ferquently_content_right {
+  width: 50%;
+  height: 100%;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_right .ferquently_content_right_content {
+  width: 80%;
+  height: 100%;
+  border: 1px solid transparent;
+  background-color: #222222;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_right .ferquently_content_right_content .ferquently_content_right_content_item .ferquently_content_right_content_item_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_right .ferquently_content_right_content .ferquently_content_right_content_item .ferquently_content_right_content_item_title h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_right .ferquently_content_right_content .ferquently_content_right_content_item .ferquently_content_right_content_item_title .check {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.conteiner .frequently .ferquently_content .ferquently_content_right .ferquently_content_right_content .ferquently_content_right_content_item .ferquently_content_right_content_item_body p {
+  font-size: 12px;
 }
